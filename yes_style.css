@@ -22,3 +22,10 @@ body {
     max-width: 500px; 
     height: auto; 
 }
+
+#image-container img {
+    width: 100%; /* Đảm bảo ảnh không vượt quá kích thước container */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng cho ảnh */
+}
