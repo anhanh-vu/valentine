@@ -58,7 +58,6 @@ function handleYesClick() {
     window.location.href = "yes_page.html";
 }
 
- })();
 
 // Nếu cần tối ưu hóa trải nghiệm hoặc các hiệu ứng đặc biệt, bạn có thể thêm các đoạn mã sau:
 // (function optimizeExperience() {
