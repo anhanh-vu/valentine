@@ -18,9 +18,9 @@ body {
 }
 
 .gif_container img {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 #image-container {
@@ -28,16 +28,26 @@ body {
     margin-top: 20px;
     padding: 20px;
     border-radius: 10px;
-    background-color: white; /* Nền trắng cho ảnh */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng nhẹ */
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 600px; /* Giới hạn kích thước ảnh */
+    max-width: 600px;
     overflow: hidden;
 }
 
 #image-container img {
     width: 100%; /* Đảm bảo ảnh không vượt quá kích thước container */
     height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* CSS cho ảnh IMG_2735 */
+.image-container img {
+    width: 100%;  /* Đảm bảo ảnh chiếm 100% chiều rộng của container */
+    max-width: 500px; /* Giới hạn chiều rộng tối đa */
+    height: auto; /* Đảm bảo tỷ lệ ảnh không bị thay đổi */
+    margin-top: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng cho ảnh */
 }
