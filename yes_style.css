@@ -23,6 +23,18 @@ body {
     height: auto; 
 }
 
+#image-container {
+    display: none; /* Ảnh bị ẩn ban đầu */
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white; /* Nền trắng cho ảnh */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng nhẹ */
+    width: 100%;
+    max-width: 600px; /* Giới hạn kích thước ảnh */
+    overflow: hidden;
+}
+
 #image-container img {
     width: 100%; /* Đảm bảo ảnh không vượt quá kích thước container */
     height: auto;
